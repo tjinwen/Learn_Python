@@ -35,7 +35,7 @@ s2 = set([2,3,4])
 print(s1&s2)
 print(s1|s2)
 
-s3 = set(1,[2,3])
+s3 = set(str(1),[2,3])
 for x in s3:
 	print(x)
 
