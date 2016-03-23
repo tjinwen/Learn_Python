@@ -35,9 +35,9 @@ s2 = set([2,3,4])
 print(s1&s2)
 print(s1|s2)
 
-s3 = set(str(1),[2,3])
-for x in s3:
-	print(x)
+#s3 = set(1,[2,3])
+#for x in s3:
+#	print(x)
 
 #----- 不可变对象----------
 print("----------不可变对象,list and str----------")
