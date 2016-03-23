@@ -13,4 +13,4 @@ print(sum)
 #scores = [95,75,85]
 
 NameS = {'tong':95,'jin':93,'wen':45}
-
+print(NameS['tong'])
