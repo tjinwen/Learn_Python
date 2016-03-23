@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 names = ['Micheal','Bob','Tracy']
 for name in names:
 	print(name)
@@ -32,4 +34,12 @@ s2 = set([2,3,4])
 print(s1&s2)
 print(s1|s2)
 
+s3 = set(1,[2,3])
+print(s3)
+
+#----- 不可变对象----------
+print("----------不可变对象,list and str----------")
+a = 'abc'
+a.replace('a','A')
+print(a)
 
