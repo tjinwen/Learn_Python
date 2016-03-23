@@ -14,3 +14,14 @@ print(sum)
 
 NameS = {'tong':95,'jin':93,'wen':45}
 print(NameS['tong'])
+
+#--------learn set----------
+print("-------------------")
+s = set([1,2,3,2,3])
+print(s)
+
+s.add(4)
+print(s)
+
+s.remove(3)
+print(s)
