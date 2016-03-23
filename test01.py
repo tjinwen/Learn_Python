@@ -42,6 +42,7 @@ print(s1|s2)
 #----- 不可变对象----------
 print("----------不可变对象,list and str----------")
 a = 'abc'
-a.replace('a','A')
+b = a.replace('a','A')
 print(a)
+print(b)
 
