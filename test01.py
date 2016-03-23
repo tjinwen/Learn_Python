@@ -25,3 +25,11 @@ print(s)
 
 s.remove(3)
 print(s)
+
+print("----set 可以做数学上的一些集合的运算----")
+s1 = set([1,2,3])
+s2 = set([2,3,4])
+print(s1&s2)
+print(s1|s2)
+
+
