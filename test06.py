@@ -44,3 +44,18 @@ L=odd()
 print(next(L))
 print(next(L))
 print(next(L))
+
+print("-----------------------------------")
+from collections import Iterator
+R = isinstance((x for x in range(10)),Iterator)
+print(R)
+R = isinstance([],Iterator)
+print(R)
+R = isinstance({},Iterator)
+print(R)
+R = isinstance('abc',Iterator)
+print(R)
+
+
+
+
