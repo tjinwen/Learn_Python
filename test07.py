@@ -32,3 +32,12 @@ def char2num(s):
 b = reduce(fn,map(char2num,'13579'))
 print(b)
 print(list(map(char2num,'13579')))
+
+print()
+print('-----------------------------')
+
+def is_odd(n):
+	return n%2==1
+	
+L = list(filter(is_odd,[1,2,3,4,5,6,7,8,9]))
+print(L)
