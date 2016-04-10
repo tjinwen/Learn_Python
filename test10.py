@@ -16,3 +16,8 @@ def lazy_sum(*args):
 L=lazy_sum(1,2,3,4,5)
 print(L)
 print(L())
+
+#####匿名函数lambda
+print("************new python******************")
+f=lambda x:x*x
+print(f(5))
